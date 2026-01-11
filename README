@@ -77,9 +77,8 @@ fn file_example() {
 
 --------------------------------------------------------------------------------
 🛡️ Mathematical Security
-• Period Magnitude: Since the virtual rotors are composed of vectors with distinct prime lengths (co-primes), the cycle period is the Least Common Multiple (LCM) of these lengths. This results in an astronomically large period (>300 
-17 ), effectively preventing keystream reuse.
-• Avalanche Effect: A single bit change in the seed alters the prime permutation and the number of vectors per rotor, resulting in a completely different machine topology (G=G) and internal state (Σ=Σ).
+• Period Magnitude: Since the virtual rotors are composed of vectors with distinct prime lengths (co-primes), the cycle period is the Least Common Multiple (LCM) of these lengths. This results in an astronomically large period (>300^17 ), effectively preventing keystream reuse.
+• Avalanche Effect: A single bit change in the seed alters the prime permutation and the number of vectors per rotor, resulting in a completely different machine topology (G≠G) and internal state (Σ≠Σ).
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
