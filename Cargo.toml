@@ -1,0 +1,15 @@
+[package]
+name = "rotorcypher"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+argon2 = "0.5"
+sha3 = "0.10"
+rand = "0.8"
+zeroize = "1.7"
+rayon = "1.10"
+hmac = "0.12"
+num-bigint = "0.4.6"
+num-traits = "0.2"
+
